@@ -1,0 +1,92 @@
+/* Write your CSS here */
+.summary-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 20px 0;
+  /* border: 1px solid red; */
+}
+@media screen and (max-width: 767px) {
+  .summary-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+  }
+}
+.summary-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* border: 1px solid red; */
+}
+.total-amount-text {
+  color: #616e7c;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  margin-top: 0;
+}
+@media screen and (max-width: 767px) {
+  .total-amount-text {
+    font-size: 16px;
+  }
+}
+.total-amount-count {
+  color: #171f46;
+  font-size: 25px;
+  font-weight: 600;
+  font-family: 'Roboto';
+  margin-top: 0;
+}
+@media screen and (max-width: 767px) {
+  .total-amount-count {
+    font-size: 20px;
+  }
+}
+.cart-items-count {
+  color: #616e7c;
+  font-size: 14px;
+  font-weight: 300;
+  font-family: 'Roboto';
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 767px) {
+  .cart-items-count {
+    font-size: 12px;
+  }
+}
+.checkout-btn {
+  background-color: #0b69ff;
+  border: none;
+  outline: none;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  padding: 10px 5px;
+  border-radius: 5px;
+}
+@media screen and (max-width: 767px) {
+  .checkout-btn {
+    display: none;
+  }
+}
+.checkout-btn-mobile {
+  background-color: #0b69ff;
+  border: none;
+  outline: none;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  padding: 10px 5px;
+  border-radius: 5px;
+  display: none;
+}
+@media screen and (max-width: 767px) {
+  .checkout-btn-mobile {
+    display: inline;
+    align-self: stretch;
+  }
+}
