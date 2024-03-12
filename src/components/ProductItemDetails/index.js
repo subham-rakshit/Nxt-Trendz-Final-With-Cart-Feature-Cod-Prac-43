@@ -114,6 +114,7 @@ class ProductItemDetails extends Component {
   }
 
   getProductDataWithSimilarProductId = productId => {
+    this.setState({quantity: 1})
     this.getProductData(productId)
   }
 
